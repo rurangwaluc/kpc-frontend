@@ -81,7 +81,7 @@ const Product = (props, { product }) => {
   return (
     <div>
     <Menu />
-    <div className=" productPage" >
+    <div   className=" productPage">
 
 
       <div className=" productPage-sections " >
@@ -91,16 +91,14 @@ const Product = (props, { product }) => {
         <div className='sectionTwo  '>
           <ProductInfo
             detail={Product} />
-            <div className="addToButtons">
-
-        <div className="addToCart-button mb-3">
-
-        <Link to='/cart' onClick={addToCart} id='bt'>Add to cart</Link>
-      </div>
-        <div className="addToWishlist-button">
-
-        <Link to='/wishlist' onClick={addToWishlist} id='bt'>Add to Wishlist</Link>
-      </div>
+             <div className="addToButtons">
+          <div className="addToCart-button mb-3">
+          <Link to='/cart' onClick={addToCart} id='bt'>Add to cart</Link>
+          </div>
+          <div className="addToWishlist-button">
+                    <Link to='/wishlist' onClick={addToWishlist} id='bt'>Add to Wishlist</Link>
+          </div>
+         
             </div>
         </div>
       </div>

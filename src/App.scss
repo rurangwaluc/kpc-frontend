@@ -108,7 +108,6 @@ body {
 
 
 
-
               i {
                 color: #fed700;
                 padding-right: 0.5rem;
@@ -188,14 +187,14 @@ body {
     padding: 0 6rem;
 
     &-logo {
-      margin-top: 0.9rem;
-      font-size: 3rem;
+      // margin-top: 0rem;
+
 
       a {
-        h3 {
-          font-size: 2rem;
-          font-weight: 800;
-          color: #000000;
+        img {
+          width: 7rem;
+          height: 7rem;
+          border-radius: 2.5rem;
         }
       }
     }
@@ -2209,8 +2208,12 @@ body {
 .addToButtons {
   display: flex;
 
+  .addToCart-button,
   .addToWishlist-button {
     padding: 1rem;
+    border: none;
+    outline: none;
+    background: none;
 
     a {
       width: 155px;
@@ -2238,7 +2241,7 @@ body {
   productPage  start Here
 ////////////////*/
 .productPage {
-  padding: 0 10rem;
+  padding: 0 7rem;
 
   .productPage-sections {
     display: flex;
@@ -2250,8 +2253,8 @@ body {
     }
 
     .sectionTwo {
-      width: 669.98px;
-      height: 673.25px;
+      width: 869.98px;
+      // height: 673.25px;
       margin: 2rem auto;
 
       .main-content-header {
@@ -6524,6 +6527,11 @@ about Ends Here
     }
   }
 
+  // .addToButtons {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+
   .content-wrapper {
     nav.navigation {
       margin: 1rem 0;
@@ -8183,6 +8191,8 @@ about Ends Here
             ul {
               display: flex;
               justify-content: center;
+              margin-top: 0;
+              padding-top: 0;
 
               li {
                 padding-right: 3rem;
@@ -8200,7 +8210,16 @@ about Ends Here
                 &:hover {
                   color: #334141;
                 }
+
+                a {
+                  img {
+                    width: 4.5rem;
+                    height: 4.5rem;
+                    border-radius: 2.5rem;
+                  }
+                }
               }
+
             }
           }
 
@@ -8299,6 +8318,11 @@ about Ends Here
       width: 200px;
       height: 140px;
     }
+  }
+
+  .addToButtons {
+    display: flex;
+    flex-direction: column;
   }
 
   .productForm {
