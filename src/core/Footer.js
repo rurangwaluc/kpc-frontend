@@ -55,7 +55,7 @@ const Footer = () => {
             </div> */}
             <div className="insta-posts">
               <h3>Our Instagram Posts</h3>
-              {/* <div className="images lesImages"> 
+              <div className="images overflow-auto"> 
                
 
            <InstagramEmbed className="image" url='https://www.instagram.com/p/CFJnLLwB_0z/' 
@@ -70,7 +70,7 @@ const Footer = () => {
             onAfterRender={() => {}}
             onFailure={() => {}}
                 />
-               </div> */}
+               </div>
              
             </div>
           </div>
