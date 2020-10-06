@@ -1061,11 +1061,11 @@ body {
 }
 
 .shop-container {
-  padding: 0rem 10rem;
+  padding: 0rem 5rem;
 
   .product-card-container {
 
-    width: 34rem;
+    width: 32rem;
     height: 20rem;
     padding: 1rem;
     display: flex;
@@ -1130,9 +1130,9 @@ body {
       }
 
       .price-container {
-        width: 18.7rem;
+        width: 14rem;
         height: 6rem;
-        text-align: center;
+        text-align: start;
         // display: flex;
         justify-content: space-between;
         padding-top: 2rem;
@@ -1140,7 +1140,7 @@ body {
 
 
         .view-price {
-          font-size: 2rem;
+          font-size: 1.5rem;
           color: #343f49;
         }
 
